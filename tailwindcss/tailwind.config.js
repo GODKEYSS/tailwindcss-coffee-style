@@ -12,9 +12,14 @@ module.exports = {
       animation: {
         wiggle: 'slideDown .4s ease-in-out',
       },
-      backgroundImage: {
-        'slider-bg': "url('./img/slider.jpg')"
-      }
+      colors: {
+        'coffee': {
+          50:'#c86548',
+          100: '#A25F4B',
+          200: '#744838'
+        }
+      },
+      
     },
   },
   plugins: [],

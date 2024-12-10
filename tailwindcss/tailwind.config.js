@@ -11,6 +11,9 @@ module.exports = {
       },
       animation: {
         wiggle: 'slideDown .4s ease-in-out',
+      },
+      backgroundImage: {
+        'slider-bg': "url('./img/slider.jpg')"
       }
     },
   },

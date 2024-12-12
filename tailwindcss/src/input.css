@@ -30,3 +30,7 @@
 .mtq-subheadline-label {
     @apply  uppercase mx-4 tracking-widest text-gray-500 text-[14px] text-center
 }
+.mtq-button {
+    @apply text-center uppercase tracking-wider py-4 px-7 text-sm font-semibold  
+    cursor-pointer hover:bg-opacity-95 z-10;
+}

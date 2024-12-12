@@ -61,7 +61,7 @@
                             </a>
                         </li>
                     </ul>
-
+                    <!-- Responsive header -->
                     <div id="mtq-toggle-top-menu-icon"
                         class="menu basis-1/6 lg:hidden flex items-center cursor-pointer px2 sm:px-3">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -92,6 +92,8 @@
 
 
                 </div> <!-- End Slider-->
+
+
                 <div class="story">
                     <div class="w-full h-full flex justify-center items-center">
                         <div class="xl:px-96 sm:16-px md:px-32 py-32 text-center">
@@ -114,11 +116,73 @@
                 <div class="mtq-subheadline ">
                     <div class="mtq-subheadline-deco-line "></div>
                     <div class="mtq-subheadline-label">Featured Mugs</div>
-                    <div class="mtq-subheadline-deco-line "></div>
+                    <div class="mtq-subheadline-deco-line"></div>
                 </div>
-                <div class="featured-mugs">
-                    featured-mugs
+                <div class="featured-mugs w-[95%] lg:w-[65%] mx-auto mb-24 ">
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4">
+                        <div class="mtq-product-card">
+                            <!-- pink coffe img -->
+                            <div
+                                class=" h-[400px] sm:h-[540px] relative bg-cover bg-no-repeat bg-center bg-[url('./img/pink-coffee.jpg')] group">
+                                <a href="#" alt="MasterQuanh">
+                                    <!-- Lớp phủ chỉ để tạo hiệu ứng mờ -->
+                                    <div
+                                        class="absolute w-full h-full bg-gray-900 opacity-0 group-hover:opacity-10 transition-all duration-300">
+                                    </div>
+
+                                    <!-- Nội dung "On Sale!" -->
+                                    <div
+                                        class="absolute w-[100px] bg-white py-2 px-4 top-3 right-3 font-semibold text-coffee-50 text-center z-10">
+                                        On Sale!
+                                    </div>
+
+                                    <!-- Nội dung "Explore Mugs" -->
+                                    <div
+                                        class="absolute left-1/2 -translate-x-1/2 bg-white text-gray-900 w-11/12 bottom-4  hidden group-hover:block group-hover:animate-fadeIn mtq-button">
+                                        Explore Mugs
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-center mt-8">
+                                <a href="#" alt="MasterQuanh">
+                                    <div class="text-xl mb-3 hover:text-coffee-50">Pink Premium Ceramic</div>
+                                </a>
+                                <div class="">
+                                    <span class="text-lg text-coffee-50">$50.00</span>
+                                    <span class="ml-2 text-gray-400 line-through">$69.00 USD</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mtq-product-card ">
+                            <!-- browncoffe img -->
+                            <div
+                                class="h-[400px] sm:h-[540px] relative bg-cover bg-no-repeat bg-center bg-[url('./img/brown-coffee.jpg')] group">
+                                <a href="#" alt="MasterQuanh">
+                                    <!-- Lớp phủ chỉ để tạo hiệu ứng mờ -->
+                                    <div
+                                        class="absolute w-full h-full bg-gray-900 opacity-0 group-hover:opacity-10 transition-all duration-300">
+                                    </div>
+
+
+
+                                    <!-- Nội dung "Explore Mugs" -->
+                                    <div
+                                        class="absolute left-1/2 -translate-x-1/2 bg-white text-gray-900 w-11/12 bottom-4  hidden group-hover:block group-hover:animate-fadeIn mtq-button">
+                                        Explore Mugs
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="text-center mt-8">
+                                <a href="#" alt="MasterQuanh">
+                                    <div class="text-xl mb-3 hover:text-coffee-50">Golden Designers Mug</div>
+                                </a>
+                                <span class="ml-2 text-gray-400">$99.00 USD</span>
+                            </div>
+
+                        </div>
+                    </div>
                 </div> <!-- End featured-mugs-->
+
                 <div class="mtq-subheadline ">
                     <div class="mtq-subheadline-deco-line "></div>
                     <div class="mtq-subheadline-label">More Products</div>

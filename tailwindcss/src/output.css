@@ -578,6 +578,26 @@ video {
   top: 0.75rem;
 }
 
+.left-\[\] {
+  left: ;
+}
+
+.left-\[calc\] {
+  left: calc;
+}
+
+.left-\[calc\(-50\%\)\] {
+  left: calc(-50%);
+}
+
+.left-\[calc\(-50vw\)\] {
+  left: calc(-50vw);
+}
+
+.left-\[calc\(-50vw\+50\%\)\] {
+  left: calc(-50vw + 50%);
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -618,6 +638,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -630,20 +654,12 @@ video {
   margin-left: 0.5rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .flex {
@@ -666,6 +682,10 @@ video {
   height: 280px;
 }
 
+.h-\[340px\] {
+  height: 340px;
+}
+
 .h-\[380px\] {
   height: 380px;
 }
@@ -680,6 +700,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[500px\] {
+  height: 500px;
 }
 
 .w-11\/12 {
@@ -705,6 +729,22 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-\[100\] {
+  width: 100;
+}
+
+.w-\[100\%v\] {
+  width: 100%v;
+}
+
+.w-\[100\%vw\] {
+  width: 100%vw;
+}
+
+.w-\[100vw\] {
+  width: 100vw;
 }
 
 .max-w-screen-2xl {
@@ -819,6 +859,10 @@ video {
   background-image: url('./img/magazine-03.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/parallax\.jpg\'\)\] {
+  background-image: url('./img/parallax.jpg');
+}
+
 .bg-\[url\(\'\.\/img\/pink-coffee\.jpg\'\)\] {
   background-image: url('./img/pink-coffee.jpg');
 }
@@ -829,6 +873,10 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
 }
 
 .bg-bottom {
@@ -875,10 +923,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.pl-14 {
-  padding-left: 3.5rem;
 }
 
 .pl-8 {
@@ -1130,10 +1174,6 @@ video {
 
 .mtq-button:hover {
   --tw-bg-opacity: 0.95;
-}
-
-.\*\:h-\[130px\] > * {
-  height: 130px;
 }
 
 .after\:absolute::after {
